@@ -1,7 +1,5 @@
-import HomePage from "./layout";
+import GalleryPage from './GalleryPage';
 
 export default function Home() {
-  return (
-    <HomePage />
-  );
+  return <GalleryPage />;
 }
