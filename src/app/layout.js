@@ -3,7 +3,6 @@
 import "./globals.css";
 import Gallery from "./Gallery";
 
-// Déclaration des galeries en dehors du composant pour éviter les rerenders inutiles
 const photos1 = [
   {
     credit: "Alexander Lunyov",
@@ -68,10 +67,10 @@ const photos4 = [
   },
 ];
 
-// Classe partagée pour chaque galerie
+
 const galleryDefaultStyle = "w-[20%] min-w-60 h-fit grid grid-cols-[1fr] gap-[2rem]";
 
-export default function RootLayout() {
+export default function HomePage() {
   return (
     <html lang="en">
       <body className="flex flex-col items-center content-center gap-[4rem]">

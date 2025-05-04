@@ -1,7 +1,7 @@
-import RootLayout from "./layout";
+import HomePage from "./layout";
 
 export default function Home() {
   return (
-    <RootLayout />
+    <HomePage />
   );
 }
